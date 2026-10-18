@@ -385,7 +385,7 @@ img.circle-avatar {
 
 /* Character Sheet Formatting Rules */
 .stats-table {
-    width: 20%; 
+    width: 40%; 
     margin: 8px 0;
     border-collapse: collapse;
     font-size: 0.9em;
@@ -441,6 +441,12 @@ img.circle-avatar {
     font-size: 0.9em;
     line-height: 1.6;
     color: #cbd5e0;
+}
+
+.skills-inline-row span {
+    color: #f687b3;
+    font-weight: bold;
+    border-bottom: 1px dashed #a78bfa;
 }
 
 /* Dynamic Tooltip System Rules */
