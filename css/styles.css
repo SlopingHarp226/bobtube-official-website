@@ -215,6 +215,52 @@ button.submit-btn:hover {
     display: block;
 }
 
+/* Sub Bobs Group Roster Component */
+.sub-bobs-container {
+    width: 100%;
+    clear: both;
+    overflow: auto;
+    margin: 20px 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.sub-bob-card {
+    width: 23%; 
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+
+.sub-bob-card a {
+    text-decoration: none;
+    display: block;
+    color: #e2e8f0;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.sub-bob-card a:hover {
+    color: #f687b3;
+    transform: translateY(-3px); 
+}
+
+img.circle-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+    border: 3px solid #805ad5;
+    display: block;
+    margin: 0 auto 8px auto;
+    object-fit: cover;
+}
+
+.sub-bob-card span {
+    display: block;
+    font-size: 0.85em;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
 /* Channel Link Action Card Button */
 .channel-link-card {
     text-align: center;
