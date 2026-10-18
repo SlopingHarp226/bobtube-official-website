@@ -53,6 +53,8 @@
                                     <p>Height: 5”2</p>
                                     <p>Skin color: Yellow-ish</p>
                                     <p>Gender: Female</p>
+                                    <p>Notable Features: A small dog sewn onto her top school uniform for memory of her family pet</p>
+                                    <p>Curse Energy Color: Purple</p>
                                 </div>
 
                                 <div class="section-block">
@@ -71,11 +73,16 @@
                                 </div>
 
                                 <div class="section-block">
+                                    <strong>Profiencies:</strong>
+                                    <p>Drawing</p>
+                                </div>
+
+                                <div class="section-block">
                                     <strong>Stats:</strong>
                                     <table class="stats-table">
                                         <tr><td>Max HP:</td><td>26</td></tr>
                                         <tr><td>Armor Class:</td><td>1d4 + 2</td></tr>
-                                        <tr><td>Max Curse Energy:</td><td>6</td></tr>
+                                        <tr><td>Max Curse Energy (CE):</td><td>6</td></tr>
                                         <tr><td>Base Movement:</td><td>30ft</td></tr>
                                         <tr><td>Max Carry Weight:</td><td>120</td></tr>
                                     </table>
@@ -99,10 +106,12 @@
                                             <span class="group-label">Passives</span>
 
                                             <div class="skills-inline-row">
+                                                <span class="tip-inline" data-tip="Primary stat used for cursed energy is Intelligence.">Intelligence Energy</span>
                                                 <span class="tip-inline" data-tip="Born with the ability to erase parts of a body that you draw, you are able to deal great damage with art.">Anatomical Severance</span>
                                                 <span class="tip-inline" data-tip="You regenerate 1 cursed energy at the end of your turn.">Cursed Regeneration</span>
                                                 <span class="tip-inline" data-tip="Restriction: Cannot speak. Gain: +25% Extra Curse Energy due to inability to speak, you have a natural -4 to the charisma stat.">Heavenly Pact</span>
                                                 <span class="tip-inline" data-tip="Drawing a type of curse for the first time allows you to target that curse multiple times.">Dominion Drawing</span> 
+                                                <span class="tip-inline" data-tip="Guideline of things you can do as a sorcerer. It is a non exhaustive list. 1. Track - Make an arcana save of X (varies based on situation). On a success, you will be able to trace technique or cursed energy residue left in an area. 2. Analyze - Against a target you may evaluate generally how much CE the target has based on an arcana save. Against targets that are attempting to hide their cursed energy, they make an opposing arcana save to counteract it. Opposing saves can only be made once per minute against those attempting to hide their cursed energy.">Natural Actions</span>
                                             </div>
                                         </div>
                                         
@@ -137,9 +146,9 @@
                                             <span class="group-label">Abilities</span>
                                             
                                             <div class="skills-inline-row">
-                                                <span class="tip-inline" data-tip="Meditating requires an action. To meditate, enter a state of calmness in order to regenerate cursed energy at an increased rate. During this time, you cannot activate techniques, nor can you use cursed natural or special actions. If you are delt damage from an attack before the start of your next turn, you must make a DCX Arcana save where X is equal to the damage suffered, or your meditation is interrupted. This save has disadvantage if you are suffering from bleeding. At the beginning of your next turn, you regenerate an additional cursed energy. You cannot meditate for more than one turn in a row.">Meditate</span>
-                                                <span class="tip-inline" data-tip="Choose to remove a part of the opponent. Vague attack and cost depends on the strength of the enemy and the usefulness of the part removed. Severance can target any amount of drawn targets in the same turn, so long as you pay the cursed energy cost for each. Severance deals 1d6 + Int damage that is only reduced by CE reinforcement (ignores def). Must have drawn the opponent already to use this.">Severance</span>
-                                                <span class="tip-inline" data-tip="Usable after a target has been drawn. Un-usable as long as you have 2 or more targets on your canvas. As an action, add everything within a 15ft sphere around the drawn target to the canvas. Then, Canvas Expansion goes on cooldown for 5 turns. By adding ink to the original target and splashing it out in a 15ft sphere area imprinting those target into the Canvas.">Canvas Expansion</span> 
+                                                <span class="tip-inline" data-tip="Meditating requires an action. To meditate, enter a state of calmness in order to regenerate cursed energy at an increased rate. During this time, you cannot activate techniques, nor can you use cursed natural or special actions. If you are delt damage from an attack before the start of your next turn, you must make a DCX Arcana save where X is equal to the damage suffered, or your meditation is interrupted. This save has disadvantage if you are suffering from bleeding. At the beginning of your next turn, you regenerate an additional cursed energy. You cannot meditate for more than one turn in a row.">Meditate (Cost: None)</span>
+                                                <span class="tip-inline" data-tip="Choose to remove a part of the opponent. Vague attack and cost depends on the strength of the enemy and the usefulness of the part removed. Severance can target any amount of drawn targets in the same turn, so long as you pay the cursed energy cost for each. Severance deals 1d6 + Int damage that is only reduced by CE reinforcement (ignores def). Must have drawn the opponent already to use this.">Severance (Cost: CE Varies)</span>
+                                                <span class="tip-inline" data-tip="Usable after a target has been drawn. Un-usable as long as you have 2 or more targets on your canvas. As an action, add everything within a 15ft sphere around the drawn target to the canvas. Then, Canvas Expansion goes on cooldown for 5 turns. By adding ink to the original target and splashing it out in a 15ft sphere area imprinting those target into the Canvas.">Canvas Expansion (Cost: 1 CE)</span> 
                                             </div>
                                         </div>
 
@@ -147,9 +156,9 @@
                                             <span class="group-label">Natural Actions</span>
                                             
                                             <div class="skills-inline-row">
-                                                <span class="tip-inline" data-tip="You may choose to set your reinforcement. Each level of reinforcement increases your defense by Int at the start of your turn, but costs cursed energy equal to that level. Reinforcement 1: +5 Defense, 1 CE Consumption. Reinforcement 2: +10 Defense, 2 CE Consumption. So on...">Curse Energy Reinforcement</span>
-                                                <span class="tip-inline" data-tip="You may, as an action, do something with cursed energy. 1. Fire Raw Energy - Fire a projectile that deals X*Y damage where X is equal to your primary cursed energy stat modifier, and Y is equal to the amount of cursed energy you pour into the attack (any amount). 2. Infuse - Infuse any amount of cursed energy into an object. This adds X*Y damage to any attack made with an object until end of turn.">Curse Energy Attacks</span>
-                                                <span class="tip-inline" data-tip="Once per day as a free action, restore cursed energy equal to half your max CE rounded down.">Reserve Energy</span>
+                                                <span class="tip-inline" data-tip="You may choose to set your reinforcement. Each level of reinforcement increases your defense by Int at the start of your turn, but costs cursed energy equal to that level. Reinforcement 1: +5 Defense, 1 CE Consumption. Reinforcement 2: +10 Defense, 2 CE Consumption. So on...">Curse Energy Reinforcement (Cost: CE Varies)</span>
+                                                <span class="tip-inline" data-tip="You may, as an action, do something with cursed energy. 1. Fire Raw Energy - Fire a projectile that deals X*Y damage where X is equal to your primary cursed energy stat modifier, and Y is equal to the amount of cursed energy you pour into the attack (any amount). 2. Infuse - Infuse any amount of cursed energy into an object. This adds X*Y damage to any attack made with an object until end of turn.">Curse Energy Attacks (Cost: CE Varies)</span>
+                                                <span class="tip-inline" data-tip="Once per day as a free action, restore cursed energy equal to half your max CE rounded down.">Reserve Energy (Cost: None)</span>
                                             </div>
                                         </div>
 
@@ -157,7 +166,167 @@
                                             <span class="group-label">Special Actions</span>
                                             
                                             <div class="skills-inline-row">
-                                                <span class="tip-inline" data-tip="Create a pen shikigami that you can control over a long distance. It has all stat values of -3, 1 hit point, and 0 def. It can draw remotely on a canvas and activate your technique from a maximum distance of 0.5 miles. You can summon the shikigami once per day.">Shikitgami Action</span>
+                                                <span class="tip-inline" data-tip="Create a pen shikigami that you can control over a long distance. It has all stat values of -3, 1 hit point, and 0 def. It can draw remotely on a canvas and activate your technique from a maximum distance of 0.5 miles. You can summon the shikigami once per day.">Shikitgami Action (Cost: CE Varies)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        
+                        <div class="flip-card-front">
+                            <img class="round" src="images/azrael_griffin.jpg" alt="Azrael Griffin illustration">
+                            <h3>Azrael Griffin</h3>
+                            <p class="subtitle">Jujutsu N Dragons Series</p>
+                        </div>
+                
+                        <div class="flip-card-back">
+    
+                            <div class="card-scroll-area">
+                                <div class="section-block">
+                                    <strong>Appearance:</strong>
+                                    <p>Hair color: Blond</p>
+                                    <p>Eye color: Blue</p>
+                                    <p>Height: 6”2</p>
+                                    <p>Skin color: White</p>
+                                    <p>Gender: Male</p>
+                                    <p>Notable Features: The tattoo on his chest is his own personal sigil, a combination of a star and sword, representing strength, and wisdom.</p>
+                                    <p>Curse Energy Color: His Cursed Energy is a different color depending on which shikigami’s technique he is using. Sometimes, Azrael’s eyes and hair will change based on his used shikigami too:
+                                        <ul>
+                                            <li>- Dawn: Light grey coloration</li>
+                                            <li>- Meridian: Golden-white coloration</li>
+                                            <li>- Dusk: dark purple coloration</li>
+                                            <li>- Midnight: black coloration</li>
+                                        </ul>
+                                    </p>
+                                </div>
+
+                                <div class="section-block">
+                                    <strong>Background:</strong>
+                                    <p>The Griffin Family has a long and rich history of Jujutsu Sorcery. One of the greatest and most expansive sorcerer families, they originate from France, with the lineage tracing all the way back to the Dark Ages. Currently they reside in Austria. Though, the family has married in many techniques hoping to pass them down, this they have very little of their original blood. Azrael Griffin, was one of three brothers born to his father, who had the Energy Conversion Technique, and his mother who had no technique but could control her cursed energy. Energy Conversion is one of the least common Griffin Family inherited techniques, and has only appeared four times. Azrael’s technique was thought dead before he inherited it, as the last woman who used it lived right at the end of the heian era. being so rare and thought dead, it gave Azrael lots of attention from the european sorcery world since a young age. Naturally, the notoriety gave him a lot of opportunity, but also painted a target on his back. the world. Azrael was forced to leave his home when the clan head, his grandfather, told him not to use his technique, as something dangerous resided within it. Seeking to freely use his technique, he ran away to America and came to enroll in jujutsu low.</p>
+                                </div>
+
+                                <div class="section-block">
+                                    <strong>Personality:</strong>
+                                    <p>Generally a good person, Azrael is kind and supportive, and he seeks only to have freedom to do as he wants. He likes to be a shield for those who are weaker. Azrael will willingly do what it takes to make sure that what he believes is right comes to pass. If he has to break some rules to accomplish his goals, he’ll do so without hesitating. Azrael is never alright watching others be hurt in his place, but he also hungers for power. He loves playing the game of trying to be the strongest, but he will still always support his compatriots no matter what.</p>
+                                </div>
+
+                                <div class="section-block">
+                                    <strong>Languages:</strong>
+                                    <p>Being European, and specifically French, in origin, he is fluent in English, French, and German (for his home country Austria).</p>
+                                </div>
+
+                                <div class="section-block">
+                                    <strong>Profiencies:</strong>
+                                    <p>Coming from a rich family, he has trained his whole life in the use of great sword and rapier. Azrael is also a talented singer.</p>
+                                </div>
+
+                                <div class="section-block">
+                                    <strong>Stats:</strong>
+                                    <table class="stats-table">
+                                        <tr><td>Max HP:</td><td>34</td></tr>
+                                        <tr><td>Armor Class:</td><td>1d4 + 4</td></tr>
+                                        <tr><td>Max Curse Energy (CE):</td><td>5</td></tr>
+                                        <tr><td>Base Movement:</td><td>30ft</td></tr>
+                                        <tr><td>Max Carry Weight:</td><td>180</td></tr>
+                                    </table>
+                                </div>
+
+                                <div class="section-block">
+                                    <strong>Equipment:</strong>
+                                    <ul class="sheet-list">
+                                        <li><span class="tip" data-tip="No bonuses.">School Uniform (Armor)</span></li>
+                                        <li><span class="tip" data-tip="An enormous sword, with a 6ft long blade covered in rust and thorns. The pommel has a few small thorns sticking out, and when the sword is used, they grow out and harm the user. Besides Azrael, nobody has been able to awaken the ability of the sword. It has only shown the ability to become lighter based on the wielders pain.">Heirloom Sword (M. Hand)</span></li>
+                                        <li><span class="tip" data-tip="Bonus action to fire, action to reload. The bow deals 1d6 + Dex damage to any target within 45/90ft. The weapon has a magazine with 2 arrows. It can fire twice before reloading.">G2 Illusionists Crossbow (Magazine Fed) (O. Hand)</span></li>
+                                    </ul>
+                                </div>
+
+                                <div class="section-block">
+                                    <strong>Skills:</strong>
+                                    <div class="skills-nested-container">
+                                        <div class="skill-sub-group">
+                                            <span class="group-label">Passives</span>
+
+                                            <div class="skills-inline-row">
+                                                <span class="tip-inline" data-tip="You regenerate 1 cursed energy at the end of your turn.">Cursed Regeneration</span>
+                                                <span class="tip-inline" data-tip="Heavenly Cycle is an extremely rare Inherited Technique in the Griffin Family, with Griffin being the second person to ever have the technique. The user can summon 4 shikigami, in cyclical order, from dawn to midnight. Each shikigami has 5 total forms, and they must be challenged and defeated by the user in their current form to upgrade.">Terminus</span>
+                                                <span class="tip-inline" data-tip="Primary stat used for cursed energy is Constitution.">Oak Expertise</span>
+                                                <span class="tip-inline" data-tip="Guideline of things you can do as a sorcerer. It is a non exhaustive list. 1. Track - Make an arcana save of X (varies based on situation). On a success, you will be able to trace technique or cursed energy residue left in an area. 2. Analyze - Against a target you may evaluate generally how much CE the target has based on an arcana save. Against targets that are attempting to hide their cursed energy, they make an opposing arcana save to counteract it. Opposing saves can only be made once per minute against those attempting to hide their cursed energy.">Natural Actions</span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="skill-sub-group">
+                                            <span class="group-label">Aptitudes</span>
+                                            
+                                            <div class="skills-inline-row">
+                                                <span class="tip-inline" data-tip="Black Flash Aptitude: 4">Black Flash</span>
+                                                <span class="tip-inline" data-tip="Barrier Aptitude: 2">Barrier</span>
+                                                <span class="tip-inline" data-tip="Shikigami Aptitude: 6 + 1">Shikigami</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-sub-group">
+                                            <span class="group-label">Masteries</span>
+                                                
+                                            <div class="skills-inline-row">
+                                                <span class="tip-inline" data-tip=""></span>       
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-sub-group">
+                                            <span class="group-label">Martial Arts</span>
+                                            
+                                            <div class="skills-inline-row">
+                                                <span class="tip-inline" data-tip="Once per long rest, you may choose for the next reaction you make to have advantage.">Defensive Technique: Calculate</span>
+                                                <span class="tip-inline" data-tip="Once per long rest you may choose for an attack being made against you to have disadvantage, so long as the attack has a plus modifier lower than your level times two.">Defensive Technique: Guard</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-sub-group">
+                                            <span class="group-label">Abilities</span>
+                                            
+                                            <div class="skills-inline-row">
+                                                <span class="tip-inline" data-tip="As an action, A strike with the pommel of a massive sword. Melee. Deals 1d8 + Strength damage.">Pommel Strike (Cost: None)</span>
+                                                <span class="tip-inline" data-tip="As an action, A heavy swing with the Heirloom Sword. Melee. To have the weight of the sword be lifted, take 1d4 damage. The sword deals 2d6 + Strength damage. Then you may make any amount of the following sacrifices: Increase Strength: Lose 1d4 life. The sword deals an additional 1d6 damage. Coat with Thorns: Randomly suffer either 1d4 gore or 1d4 bleeding. The sword inflicts 1d4 bleed.">Swing (Cost: 1d4 HP)</span>
+                                                <span class="tip-inline" data-tip="As an action and at the cost of 1d4 life, lighten your blade, and attempt to impale a target. Deal 1d8 + Str damage, then attempt to impale. Make an opposing strength save against them. If you succeed, you may pay an additional 1d4 life. If you do, they are lifted off the ground and impaled. Each turn the target is impaled, they suffer 1d8 + Str damage that bypasses armor. Defense roll against this damage has disadvantage. Then they may make an opposing strength save again to be released from the weapon. As you use this skill, you may make any number of sacrifices. Invigorate Self - Lose 1d6 life: The strength save to initially impale the target has advantage. Coat sword in Thorns - Randomly suffer either 1d6 gore or 1d6 bleeding: If the blade successfully impales, the impaled target suffers 1d4 bleed each turn they are impaled for. Impale is an exhausting skill. After using the skill, or after an impaled target is freed, you must wait 3 turns before using the skill again.">Impale (Cost: 2d4 HP)</span> 
+                                                <span class="tip-inline" data-tip="Shoot throns from the front of the sword at any amount of targets within 25/50ft. You must pay 1d4 life to access the power. It fires 4 thorn projectiles. Each thorn deals 1d4 + Dex damage. The thorns bypass half of the defenders armor. Then, you may make any number of sacrifices. Sharpen Thorns - Lose 1d4 life: Each thorn bypasses an additional 2 defense (after the 50% reduction). Thorn Swarm - Randomly suffer either 1d4 gore or 1d4 bleeding: Increase the thorns fired by 1d4.">Scatter Thorns (Cost: 1d4 HP)</span>
+                                                <span class="tip-inline" data-tip="As an action, make an attack with the blunt end of your sword, then extend thorns from the blade on contact. It costs 1d4 life to swing properly. Consume all sacrificial bond on use. The attack deals 2d4 + Strength damage. The attack is additionally increased by 3 per sacrificial bond consumed. The weapon is huge, and due to the sheer size, is incredibly difficult to dodge when used in this way. Any roll to dodge or block the attack has disadvantage. If the attack misses, half the sacrificial bond is returned.">Redemtion Slap (Cost: 1d4 HP)</span>
+                                                <span class="tip-inline" data-tip="Something within you grows you stronger as you experience pain. Any time you make a sacrifice, tick your sacrificial bond up by 1. For each 3 stacks you have, increase your damage with all attacks by 1.">Sacrificial Bond (Cost: None)</span>
+                                                <span class="tip-inline" data-tip="Use CE to summon and maintain a crown on your own head. The crown emits light in a radius around it that is blinding to everyone, and can be precisely controlled to avoid allies. Anyone looking at it must make a DC15 con save or be blinded for the duration of the turn. Your allies have advantage on this save. Costs 2 cursed energy each turn its manifested for.">Dawn Crown (Cost: 2 CE)</span>
+                                                <span class="tip-inline" data-tip="A golden ring that can be changed in size from the size of a finger to 15 feet in diameter. Within the ring can be only objects of your choosing, and all others will be forced out by barrier at high speed. Costs 2 CE to manifest and as a bonus action. Can be manifested for up to 3 turns.">High Sun Ring (Cost: 2 CE)</span>
+                                                <span class="tip-inline" data-tip="A stone that creates a semicircular barrier on one side of it. At any chosen time, you can trigger the stone's effect, which is to block out all external light over a period of 30 seconds. After it fully blacks out, the effect can be maintained as long as the caster wishes. The maximum range is 1 mile currently. The lodestone has no cursed energy cost, but only lasts 15 minutes, and only once per day.">Sunset Lodestone (Cost: None)</span>
+                                                <span class="tip-inline" data-tip="A short cloak that allows you to meld into the shadows and emerge wherever you wish. Has a high cost and a tell. The tell is that the darkness gets noticeably deeper where you will emerge. Is less noticeable in darker areas. Using it to go into shadows costs an action, and leaving the shadows costs a bonus action. The item costs 2 CE to manifest, and each turn you begin inside the shadows costs 2 CE again. If you cannot pay the cost, you are forcefully manifested and the cloak is destroyed.">Black Velvet Cloak (Cost: 2 CE)</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-sub-group">
+                                            <span class="group-label">Natural Actions</span>
+                                            
+                                            <div class="skills-inline-row">
+                                                <span class="tip-inline" data-tip="You may choose to set your reinforcement. Each level of reinforcement increases your defense by Int at the start of your turn, but costs cursed energy equal to that level. Reinforcement 1: +5 Defense, 1 CE Consumption. Reinforcement 2: +10 Defense, 2 CE Consumption. So on...">Curse Energy Reinforcement (Cost: CE Varies)</span>
+                                                <span class="tip-inline" data-tip="You may, as an action, do something with cursed energy. 1. Fire Raw Energy - Fire a projectile that deals X*Y damage where X is equal to your primary cursed energy stat modifier, and Y is equal to the amount of cursed energy you pour into the attack (any amount). 2. Infuse - Infuse any amount of cursed energy into an object. This adds X*Y damage to any attack made with an object until end of turn.">Curse Energy Attacks (Cost: CE Varies)</span>
+                                                <span class="tip-inline" data-tip="Once per day as a free action, restore cursed energy equal to half your max CE rounded down.">Reserve Energy (Cost: None)</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-sub-group">
+                                            <span class="group-label">Special Actions</span>
+                                            
+                                            <div class="skills-inline-row">
+                                                <span class="tip-inline" data-tip=""></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-sub-group">
+                                            <span class="group-label">???</span>
+                                            
+                                            <div class="skills-inline-row">
+                                                <span class="tip-inline" data-tip="Unknown to you, a powerful curse lies within your body. At any time while all party members are at 0 or lower hit points, you may choose to unlock the curse from the inner depths of your soul. The curse will take over your body for a short time and your hit points will be restored. Doing so will permanently alter the course of your character for better and worse, and come with a permanent cost. Do it only if you are ready to unlock the next step of yourself.">Soul Unlock (Cost: ???)</span>
                                             </div>
                                         </div>
                                     </div>
